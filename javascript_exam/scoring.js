@@ -9,7 +9,7 @@ $(document).ready(function () {
     Number($('#science').val()),
     Number($('#society').val())
     ];
-    // 変数「sum」に「国語、英語、数学、理科、社会」の点数を足します。
+    // 変数「sum」に「国語、英語、数学、理科、社会」の点数を足します
     let sum = subject_points[0];
     sum = sum + subject_points[1];
     sum = sum + subject_points[2];
